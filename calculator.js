@@ -44,7 +44,7 @@ break;
 case 16:this.$ = Math.PI;
 break;
 case 17:if (!($$[$0] in symbol_table)) throw new Error("Variable no inicializada"); 
-    			 else this.$ = symbol_table[$$[$0]];
+				 else this.$ = symbol_table[$$[$0]];
 break;
 case 18:throw new Error("No puedes asignar valor a una constante");
 break;
